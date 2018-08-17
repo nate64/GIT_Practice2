@@ -1,4 +1,7 @@
 #just copied some code here for fun
+
+require 'colorize'
+
 @contacts = []
 
 def menu
