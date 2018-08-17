@@ -60,3 +60,7 @@ end
 while true
   menu
 end
+
+when 1
+  puts 'Enter git command'.colorize(:green)
+  Git.git_cmd(gets.strip)
