@@ -1,8 +1,12 @@
 #just copied some code here for fun
 
 require 'colorize'
+require_relative 'git'
 
 @contacts = []
+
+class Main
+  include Git 
 
 def menu
   puts "====================="
